@@ -65,7 +65,7 @@ export function HeroText({ text, className, el: Wrapper = "h1" }: { text: string
             y: 0,
             filter: "blur(0px)",
             transition: {
-                type: "spring",
+                type: "spring" as const,
                 damping: 12,
                 stiffness: 100,
             },
@@ -75,7 +75,7 @@ export function HeroText({ text, className, el: Wrapper = "h1" }: { text: string
             y: 20,
             filter: "blur(2px)",
             transition: {
-                type: "spring",
+                type: "spring" as const,
                 damping: 12,
                 stiffness: 100,
             },

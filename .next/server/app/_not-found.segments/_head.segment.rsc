@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/507bde0760395e17.js","/_next/static/chunks/76ab2bd415547dd4.js","/_next/static/chunks/7340adf74ff47ec0.js","/_next/static/chunks/d9837823f73a8d3f.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/507bde0760395e17.js","/_next/static/chunks/76ab2bd415547dd4.js","/_next/static/chunks/7340adf74ff47ec0.js","/_next/static/chunks/d9837823f73a8d3f.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"V-mj2RpAszR4aLwFEFnUV","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"BlueCrest - Premium Custom Water Bottle Labels"}],["$","meta","1",{"name":"description","content":"Design elegant custom water bottle labels for your restaurant or brand."}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
