@@ -1,0 +1,53 @@
+[00:00:05.903] Server  LOG     ✓ Ready in 4s
+[00:00:08.998] Server  LOG     ○ Compiling /pricing ...
+[00:00:17.807] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/pricing" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         foxified=""
+                        >
+                  ...
+
+[00:00:17.810] Browser WARN    Image with src "/logo.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:04.746] Server  LOG     ✓ Compiled in 870ms
+[00:04:53.173] Server  LOG     ✓ Compiled in 914ms
+[00:05:49.612] Server  LOG     ✓ Compiled in 511ms
+[00:12:40.817] Server  LOG     ✓ Compiled in 445ms
+[00:12:57.419] Server  LOG     ✓ Compiled in 389ms
+[00:13:27.101] Server  LOG     ✓ Compiled in 367ms
+[00:13:37.740] Server  LOG     ✓ Compiled in 444ms
+[00:15:03.816] Server  LOG     ✓ Compiled in 498ms
+[00:15:49.399] Server  LOG     ✓ Compiled in 452ms
+[00:18:11.946] Server  LOG     ✓ Compiled in 439ms
+[00:20:13.583] Server  LOG     ✓ Compiled in 304ms
+[00:21:31.663] Server  LOG     ✓ Compiled in 604ms
+[00:21:38.692] Server  LOG     ✓ Compiled in 700ms
+[00:21:59.891] Server  LOG     ✓ Compiled in 661ms
