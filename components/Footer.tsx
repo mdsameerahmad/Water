@@ -71,15 +71,15 @@ export function Footer() {
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                                 <span>
-                                    123 Design Avenue, Suite 400
+                                    Fida Hussain Road 
                                     <br />
-                                    New York, NY 10012
+                                    Jehanabad,Bihar-804408
                                 </span>
                             </li>
 
                             <li className="flex items-center gap-3">
                                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                                <span>+1 (555) 012-3456</span>
+                                <span>+91- 91227 18432</span>
                             </li>
 
                             <li className="flex items-center gap-3">
@@ -88,7 +88,7 @@ export function Footer() {
                                     href="mailto:hello@bluecrest.com"
                                     className="hover:text-primary transition-colors"
                                 >
-                                    hello@bluecrest.com
+                                    Farhanasraf1004@gmail.com
                                 </a>
                             </li>
                         </ul>

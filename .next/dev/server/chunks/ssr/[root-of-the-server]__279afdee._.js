@@ -251,13 +251,13 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: [
-                                                        "123 Design Avenue, Suite 400",
+                                                        "Fida Hussain Road",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
                                                             lineNumber: 75,
                                                             columnNumber: 37
                                                         }, this),
-                                                        "New York, NY 10012"
+                                                        "Jehanabad,Bihar-804408"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
@@ -281,7 +281,7 @@ function Footer() {
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "+1 (555) 012-3456"
+                                                    children: "+91- 91227 18432"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.tsx",
                                                     lineNumber: 82,
@@ -306,7 +306,7 @@ function Footer() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: "mailto:hello@bluecrest.com",
                                                     className: "hover:text-primary transition-colors",
-                                                    children: "hello@bluecrest.com"
+                                                    children: "Farhanasraf1004@gmail.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.tsx",
                                                     lineNumber: 87,
