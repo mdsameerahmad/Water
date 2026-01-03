@@ -45,7 +45,7 @@ export default function Home() {
             <section className="w-full py-20 bg-white">
                 <div className="container px-4 md:px-6">
                     <FadeIn className="text-center mb-16">
-                        <span className="text-sm font-bold uppercase tracking-widest text-primary mb-2 block">Why BlueCrest</span>
+                        <span className="text-sm font-bold uppercase tracking-widest text-primary mb-2 block">Why Aqva</span>
                         <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary">More Than Just Water</h2>
                     </FadeIn>
                     <FadeInStagger className="grid md:grid-cols-3 gap-12 text-center">
@@ -158,7 +158,7 @@ export default function Home() {
                             Ready to Upgrade Your Water Service?
                         </h2>
                         <p className="mx-auto max-w-[700px] text-blue-100 md:text-xl/relaxed">
-                            Join over 500+ premium restaurants who trust BlueCrest.
+                            Join over 500+ premium restaurants who trust Aqva.
                         </p>
                     </div>
                     <div className="mx-auto w-full max-w-sm space-y-4 pt-4">

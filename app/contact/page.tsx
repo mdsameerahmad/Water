@@ -30,7 +30,7 @@ export default function ContactPage() {
         const phoneNumber = "919122718432";
 
         const text =
-            `New Inquiry from BlueCrest Website*%0a%0a` +
+            `New Inquiry from Aqva Website*%0a%0a` +
             `Name: ${formData.firstName} ${formData.lastName}%0a` +
             `Restaurant: ${formData.restaurantName}%0a` +
             `Email: ${formData.email}%0a` +
@@ -47,7 +47,7 @@ export default function ContactPage() {
                 <FadeInItem className="space-y-10">
                     <div className="space-y-6">
                         <span className="inline-block text-sm font-medium text-primary">
-                            Contact BlueCrest
+                            Contact Aqva
                         </span>
 
                         <h1 className="text-2xl sm:text-3xl md:text-5xl font-serif font-bold tracking-tight leading-snug">
@@ -76,7 +76,7 @@ export default function ContactPage() {
                         <div className="flex items-center gap-4">
                             <Mail className="w-5 h-5 text-primary" />
                             <a
-                                href="mailto:hello@bluecrest.com"
+                                href="mailto:hello@Aqva.com"
                                 className="text-sm text-[#0B1F3A] hover:text-primary transition-colors"
                             >
                                 Farhanasraf1004@gmail.com

@@ -1,6 +1,6 @@
-import Link from "next/link";
+import { Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
-import { MapPin, Phone, Mail } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
     return (
@@ -10,15 +10,16 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-14">
                     {/* Brand */}
                     <div className="md:col-span-2 space-y-5">
-                        <Link href="/" className="inline-flex items-center">
+                        <Link href="/" className="inline-flex items-center gap-3">
                             <Image
                                 src="/logo.jpeg"
-                                alt="BlueCrest"
+                                alt="Aqva"
                                 width={160}
                                 height={60}
                                 className="h-14 w-auto object-contain"
                                 priority
                             />
+                            <span className="text-xl font-serif font-semibold">Aqva</span>
                         </Link>
 
                         <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
@@ -85,7 +86,7 @@ export function Footer() {
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-primary shrink-0" />
                                 <a
-                                    href="mailto:hello@bluecrest.com"
+                                    href="mailto:hello@Aqva.com"
                                     className="hover:text-primary transition-colors"
                                 >
                                     Farhanasraf1004@gmail.com
@@ -98,7 +99,7 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
                     <p>
-                        © {new Date().getFullYear()} BlueCrest. All rights reserved.
+                        © {new Date().getFullYear()} Aqva. All rights reserved.
                     </p>
 
                     <div className="flex gap-6">

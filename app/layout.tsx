@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-    title: "BlueCrest - Premium Custom Water Bottle Labels",
+    title: "Aqva - Premium Custom Water Bottle Labels",
     description: "Design elegant custom water bottle labels for your restaurant or brand.",
 };
 

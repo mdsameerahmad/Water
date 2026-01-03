@@ -33,14 +33,14 @@ export function Navbar() {
                 <Link href="/" className="flex items-center gap-2">
                     <Image
                         src="/logo.jpeg"
-                        alt="BlueCrest"
+                        alt="Aqva"
                         width={40}
                         height={40}
                         priority
                         className="h-10 w-auto rounded-full object-contain"
                     />
                     <span className="font-serif text-xl font-bold tracking-tight text-primary">
-                        BlueCrest
+                        Aqva
                     </span>
                 </Link>
 

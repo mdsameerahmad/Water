@@ -207,7 +207,7 @@ function ContactPage() {
     const handleSubmit = (e)=>{
         e.preventDefault();
         const phoneNumber = "919122718432";
-        const text = `*New Inquiry from BlueCrest Website*%0a%0a` + `*Name:* ${formData.firstName} ${formData.lastName}%0a` + `*Restaurant:* ${formData.restaurantName}%0a` + `*Email:* ${formData.email}%0a` + `*Message:* ${formData.message}`;
+        const text = `*New Inquiry from Aqva Website*%0a%0a` + `*Name:* ${formData.firstName} ${formData.lastName}%0a` + `*Restaurant:* ${formData.restaurantName}%0a` + `*Email:* ${formData.email}%0a` + `*Message:* ${formData.message}`;
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
         window.open(whatsappUrl, "_blank");
     };
@@ -224,7 +224,7 @@ function ContactPage() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "inline-block text-sm font-medium text-primary",
-                                    children: "Contact BlueCrest"
+                                    children: "Contact Aqva"
                                 }, void 0, false, {
                                     fileName: "[project]/app/contact/page.tsx",
                                     lineNumber: 49,
@@ -308,9 +308,9 @@ function ContactPage() {
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:hello@bluecrest.com",
+                                            href: "mailto:hello@Aqva.com",
                                             className: "text-sm hover:text-primary transition-colors",
-                                            children: "hello@bluecrest.com"
+                                            children: "hello@Aqva.com"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.tsx",
                                             lineNumber: 78,
