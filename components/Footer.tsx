@@ -12,7 +12,7 @@ export function Footer() {
                     <div className="md:col-span-2 space-y-5">
                         <Link href="/" className="inline-flex items-center gap-3">
                             <Image
-                                src="/logo.jpeg"
+                                src="/logo.webp"
                                 alt="Aqva"
                                 width={160}
                                 height={60}

@@ -157,42 +157,42 @@ function WorkPage() {
             name: "Barbeque Nation",
             location: "Jehanabad,Bihar",
             style: "Classic",
-            image: "/bbq.png"
+            image: "/bbq.webp"
         },
         {
             id: 2,
             name: "Zaika Family Restaurant",
             location: "Jehanabad,Bihar",
             style: "Minimal",
-            image: "/zaika.png"
+            image: "/zaika.webp"
         },
         {
             id: 3,
             name: "Momo's Magic Cafe",
             location: "Jehanabad,Bihar",
             style: "Modern",
-            image: "/momo.png"
+            image: "/momo.webp"
         },
         {
             id: 4,
             name: "Laziz Family Restaurant",
             location: "Jehanabad,Bihar",
             style: "Organic",
-            image: "/laziz.png"
+            image: "/laziz.webp"
         },
         {
             id: 5,
             name: "Monginis Cafe",
             location: "Jehanabad,Bihar",
             style: "Coastal",
-            image: "/cake.png"
+            image: "/cake.webp"
         },
         {
             id: 6,
             name: "Wedding Ceremony",
             location: "Jehanabad,Bihar",
             style: "Bold",
-            image: "/wed.png"
+            image: "/wed.webp"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export default function WorkPage() {
     const works = [
-        { id: 1, name: "Barbeque Nation", location: "Jehanabad,Bihar", style: "Classic", image: "/bbq.png" },
-        { id: 2, name: "Zaika Family Restaurant", location: "Jehanabad,Bihar", style: "Minimal", image: "/zaika.png" },
-        { id: 3, name: "Momo's Magic Cafe", location: "Jehanabad,Bihar", style: "Modern", image: "/momo.png" },
-        { id: 4, name: "Laziz Family Restaurant", location: "Jehanabad,Bihar", style: "Organic", image: "/laziz.png" },
-        { id: 5, name: "Monginis Cafe", location: "Jehanabad,Bihar", style: "Coastal", image: "/cake.png" },
-        { id: 6, name: "Wedding Ceremony", location: "Jehanabad,Bihar", style: "Bold", image: "/wed.png" },
+        { id: 1, name: "Barbeque Nation", location: "Jehanabad,Bihar", style: "Classic", image: "/bbq.webp" },
+        { id: 2, name: "Zaika Family Restaurant", location: "Jehanabad,Bihar", style: "Minimal", image: "/zaika.webp" },
+        { id: 3, name: "Momo's Magic Cafe", location: "Jehanabad,Bihar", style: "Modern", image: "/momo.webp" },
+        { id: 4, name: "Laziz Family Restaurant", location: "Jehanabad,Bihar", style: "Organic", image: "/laziz.webp" },
+        { id: 5, name: "Monginis Cafe", location: "Jehanabad,Bihar", style: "Coastal", image: "/cake.webp" },
+        { id: 6, name: "Wedding Ceremony", location: "Jehanabad,Bihar", style: "Bold", image: "/wed.webp" },
        
     ];
 
