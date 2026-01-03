@@ -5,12 +5,13 @@ import Link from "next/link";
 
 export default function WorkPage() {
     const works = [
-        { id: 1, name: "The French Laundry", location: "Yountville, CA", style: "Classic" },
-        { id: 2, name: "Eleven Madison Park", location: "New York, NY", style: "Minimal" },
-        { id: 3, name: "Osteria Francescana", location: "Modena, IT", style: "Modern" },
-        { id: 4, name: "Noma", location: "Copenhagen, DK", style: "Organic" },
-        { id: 5, name: "Mirazur", location: "Menton, FR", style: "Coastal" },
-        { id: 6, name: "Central", location: "Lima, PE", style: "Bold" },
+        { id: 1, name: "Barbeque Nation", location: "Jehanabad,Bihar", style: "Classic", image: "/bbq.png" },
+        { id: 2, name: "Zaika Family Restaurant", location: "Jehanabad,Bihar", style: "Minimal", image: "/zaika.png" },
+        { id: 3, name: "Momo's Magic Cafe", location: "Jehanabad,Bihar", style: "Modern", image: "/momo.png" },
+        { id: 4, name: "Laziz Family Restaurant", location: "Jehanabad,Bihar", style: "Organic", image: "/laziz.png" },
+        { id: 5, name: "Monginis Cafe", location: "Jehanabad,Bihar", style: "Coastal", image: "/cake.png" },
+        { id: 6, name: "Wedding Ceremony", location: "Jehanabad,Bihar", style: "Bold", image: "/wed.png" },
+       
     ];
 
     return (
@@ -27,7 +28,7 @@ export default function WorkPage() {
                     <FadeInItem key={work.id} className="group cursor-pointer">
                         <div className="relative aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden mb-4 shadow-sm group-hover:shadow-md transition-shadow">
                             <Image
-                                src="/im1.jpeg"
+                                src={work.image}
                                 alt={`${work.name} Bottle`}
                                 fill
                                 className="object-contain p-8 group-hover:scale-105 transition-transform duration-500"
@@ -41,7 +42,7 @@ export default function WorkPage() {
                         </div>
                         <div>
                             <h3 className="font-bold text-lg">{work.name}</h3>
-                            <p className="text-sm text-white">{work.location}</p>
+                            <p className="text-sm text-muted-foreground">{work.location}</p>
                         </div>
                     </FadeInItem>
                 ))}

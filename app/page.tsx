@@ -129,7 +129,7 @@ export default function Home() {
                             className="relative aspect-square lg:aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl"
                         >
                             <Image
-                                src="/im1.jpeg"
+                                src="/zaika.png"
                                 alt="Water bottling production line"
                                 fill
                                 priority

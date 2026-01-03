@@ -154,39 +154,45 @@ function WorkPage() {
     const works = [
         {
             id: 1,
-            name: "The French Laundry",
-            location: "Yountville, CA",
-            style: "Classic"
+            name: "Barbeque Nation",
+            location: "Jehanabad,Bihar",
+            style: "Classic",
+            image: "/bbq.png"
         },
         {
             id: 2,
-            name: "Eleven Madison Park",
-            location: "New York, NY",
-            style: "Minimal"
+            name: "Zaika Family Restaurant",
+            location: "Jehanabad,Bihar",
+            style: "Minimal",
+            image: "/zaika.png"
         },
         {
             id: 3,
-            name: "Osteria Francescana",
-            location: "Modena, IT",
-            style: "Modern"
+            name: "Momo's Magic Cafe",
+            location: "Jehanabad,Bihar",
+            style: "Modern",
+            image: "/momo.png"
         },
         {
             id: 4,
-            name: "Noma",
-            location: "Copenhagen, DK",
-            style: "Organic"
+            name: "Laziz Family Restaurant",
+            location: "Jehanabad,Bihar",
+            style: "Organic",
+            image: "/laziz.png"
         },
         {
             id: 5,
-            name: "Mirazur",
-            location: "Menton, FR",
-            style: "Coastal"
+            name: "Monginis Cafe",
+            location: "Jehanabad,Bihar",
+            style: "Coastal",
+            image: "/cake.png"
         },
         {
             id: 6,
-            name: "Central",
-            location: "Lima, PE",
-            style: "Bold"
+            name: "Wedding Ceremony",
+            location: "Jehanabad,Bihar",
+            style: "Bold",
+            image: "/wed.png"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,7 +206,7 @@ function WorkPage() {
                         children: "Our Selected Works"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 19,
+                        lineNumber: 20,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -208,13 +214,13 @@ function WorkPage() {
                         children: "A collection of bespoke label designs created for the world's finest dining establishments."
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 20,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$motion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FadeInStagger"], {
@@ -226,20 +232,20 @@ function WorkPage() {
                                 className: "relative aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden mb-4 shadow-sm group-hover:shadow-md transition-shadow",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/im1.jpeg",
+                                        src: work.image,
                                         alt: `${work.name} Bottle`,
                                         fill: true,
                                         className: "object-contain p-8 group-hover:scale-105 transition-transform duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 30,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity"
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 36,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -249,18 +255,18 @@ function WorkPage() {
                                             children: work.style
                                         }, void 0, false, {
                                             fileName: "[project]/app/work/page.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 38,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 37,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -270,32 +276,32 @@ function WorkPage() {
                                         children: work.name
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm text-white",
+                                        className: "text-sm text-muted-foreground",
                                         children: work.location
                                     }, void 0, false, {
                                         fileName: "[project]/app/work/page.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 45,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/work/page.tsx",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, work.id, true, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$motion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FadeIn"], {
@@ -306,7 +312,7 @@ function WorkPage() {
                         children: "Ready to create yours?"
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 51,
+                        lineNumber: 52,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -316,24 +322,24 @@ function WorkPage() {
                             children: "Contact Us"
                         }, void 0, false, {
                             fileName: "[project]/app/work/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 54,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/work/page.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/work/page.tsx",
-                lineNumber: 50,
+                lineNumber: 51,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/work/page.tsx",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 9
     }, this);
 }
